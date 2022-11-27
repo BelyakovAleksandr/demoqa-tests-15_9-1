@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.skan.SelenideTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-27T20:27:08" hostname="MacBook-Air-Anastasia.local" time="30.347">
+<testsuite name="org.skan.SelenideTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-27T20:30:12" hostname="MacBook-Air-Anastasia.local" time="26.82">
   <properties/>
-  <testcase name="checkThatEnterprisePageOpened()" classname="org.skan.SelenideTests" time="25.653"/>
-  <testcase name="dragAndDropTest()" classname="org.skan.SelenideTests" time="4.546"/>
+  <testcase name="checkThatEnterprisePageOpened()" classname="org.skan.SelenideTests" time="21.717"/>
+  <testcase name="dragAndDropTest()" classname="org.skan.SelenideTests" time="5.096"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/alex/IdeaProjects/demoqa-tests-15_9-1/build/downloads/1669580828790_28970_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/alex/IdeaProjects/demoqa-tests-15_9-1/build/downloads/1669581012291_29186_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/alex/.cache/selenium/chromedriver/mac64/107.0.5304.62/chromedriver
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 49452
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 49689
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-нояб. 28, 2022 12:27:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+нояб. 28, 2022 12:30:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-нояб. 28, 2022 12:27:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+нояб. 28, 2022 12:30:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
-нояб. 28, 2022 12:27:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+нояб. 28, 2022 12:30:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 107 of 106
 [Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=107.0.5304.110 Platform=MAC
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.9.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.5.0 build revision: fe167b119a
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on MAC (bd60bd912a42a7294ee10128a55599a1)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on MAC (bd60bd912a42a7294ee10128a55599a1),proxy=null,downloadsFolder=/Users/alex/IdeaProjects/demoqa-tests-15_9-1/build/downloads/1669580828790_28970_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on MAC (a7ebe0c15c2e8aa179c36b062c08e658)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on MAC (a7ebe0c15c2e8aa179c36b062c08e658),proxy=null,downloadsFolder=/Users/alex/IdeaProjects/demoqa-tests-15_9-1/build/downloads/1669581012291_29186_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>
